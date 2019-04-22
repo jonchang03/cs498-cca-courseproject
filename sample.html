@@ -1,0 +1,26 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+        <h1>CS498 Cloud Computing Applications</h1>
+        <h3>Please Upload Malaria image for detection</h3>   
+<form action="http://s3.amazonaws.com/sagemaker-us-east-1-554240446913" method="post" enctype="multipart/form-data">
+<input type="hidden" name="key" value="Malariaimages/${filename}" />
+<input type="hidden" name="acl" value="public-read-write" />
+<input type="hidden" name="content-type" value="image/png" />
+<input type="hidden" name="AWSAccessKeyId" value="AKIAJJKBOVEE3N6PMZZQ" />
+<input type="hidden" name="policy" value="eyJleHBpcmF0aW9uIjogIjIwMTktMTEtMTFUMTI6MDA6MDAuMDAwWiIsCiJjb25kaXRpb25zIjogWwp7ImFjbCI6ICJwdWJsaWMtcmVhZC13cml0ZSIgfSwKeyJidWNrZXQiOiAic2FnZW1ha2VyLXVzLWVhc3QtMS01NTQyNDA0NDY5MTMiIH0sClsic3RhcnRzLXdpdGgiLCAiJGtleSIsICJNYWxhcmlhaW1hZ2VzLyJdLApbInN0YXJ0cy13aXRoIiwgIiRDb250ZW50LVR5cGUiLCAiaW1hZ2UvcG5nIl0sCl0KfQ==" />
+<input type="hidden" name="signature" value="FpK75QAha8ZyL5cYPOlsjW0Vk20=" />
+<input name="file" type="file" />
+<input name="submit" value="Upload" type="submit" />
+</form>
+<h2>Malaria Detection Response</h2>
+<p>
+          <label>Response:</label>
+          <input type = "text"
+                 id = "myText"
+                 value = "text here" />
+</p>
+</body>
+</html>
